@@ -652,6 +652,68 @@ section.about {
    transition: all 0.3s;
 }
 
+/*
+ * Section: Hackathon
+ */
+.hackathon {
+  text-align: center;
+  color: #313131;
+  text-transform: uppercase;
+  margin: 25px 0;
+  background-color: #f8f8f8;
+}
+.hackathon h4 {
+  text-align: center;
+  margin-left: 0.0em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  text-transform: none;
+  font-size: 90%;
+}
+.hackathon h5 {
+  text-align: center;
+  margin-left: 0.7em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #aaaaaa;
+  /*text-shadow: 1px 1px black;*/
+}
+.hackathon p {
+  margin-bottom: 5px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.hackathon img {
+  width: 60%;
+  border-radius: 50%;
+  border: 0.25em solid #dadada;
+  box-shadow: 0.2em 0.2em 0.2em grey
+}
+.hackathon img:hover {
+  border: 0.25em solid #62d65e;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
+
+.hackathon .modal {
+  text-transform: none;
+}
+
+.hackathon a i {
+  color: #888888;
+}
+
+.coming-soon {
+  text-align: center;
+  color: #313131;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
 /* Schedule listing */
 
 .schedule-date {

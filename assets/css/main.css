@@ -251,7 +251,8 @@ ul li {
 #apply {
   font-weight: bold;
   font-size: 1.5em;
-  background-color: #d6ca5e;
+  color: white;
+  background-color: #4080bf;
   margin-top: 0.9em;
 }
 #sponsor {
@@ -401,7 +402,7 @@ ul.nav.navbar-nav {
   min-height: 70vh; /* changed in attempt to fix mobile look */
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/back2.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -928,8 +929,7 @@ span.schedule-slot-speaker-name{
 }
 
 .sponsors .col-sm-4 {
-  padding-top: 10px;
-  padding-bottom: 30px;
+ 
 }
 
 .sponsors .row {

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.hero-section {
+  position: relative;
+  height: 100vh;
+  color: white; /* Assuming a dark purple background as seen in the image */
+}
+
+.video-background {
+  display: none; /* Hide the video background if we're replicating the image style */
+}
+
+.hero-text {
+  text-align: center; /* Center the text */
+  padding-top: 100px; /* Add space at the top */
+}
+
+.hero-text h2 {
+  font-size: 1.25rem; /* Smaller font size for the subtitle */
+  color: #f7f8fd; /* Lighter text color */
+  margin-bottom: 15px; /* Space between subtitle and title */
+}
+
+.hero-text h1 {
+  font-size: 2.5rem; /* Larger font size for the main title */
+  line-height: 1.2;
+  margin-bottom: 25px; /* Space between title and date */
+}
+
+.hero-text span {
+  display: block;
+  font-size: 1rem; /* Smaller font size for the date/location */
+  margin-bottom: 30px; /* Space between date and button */
+}
+
+.primary-btn {
+  padding: 12px 30px;
+  background-color: #e96c5a; /* Assuming a salmon color for the button */
+  color: white;
+  border-radius: 20px; /* Rounded corners for the button */
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #c75442; /* Darker shade on hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 1.75rem;
+  }
+  .hero-text h2 {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+</style>
+<body>
+    <section class="hero-section">
+  <div class="video-background">
+    <video playsinline autoplay muted loop id="bg-video">
+      <source src="images/main.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-9">
+        <div class="hero-text">
+          <h2>Deep Learning IndabaX Uganda 2024</h2>
+          <h1>Ethical AI Horizons: Navigating the Impact and Future of AI Across Diverse Sectors</h1>
+          <span>29 July to 2 August 2024, Silver Springs Hotel, Bugolobi</span>
+          <a href="#" class="primary-btn">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

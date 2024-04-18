@@ -41,6 +41,95 @@
 
     <!-- FAVICON -->
     <link href="images/favicon.png" rel="shortcut icon" />
+<style>
+  .contactpagesec {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.contactpagesec .icon-box {
+  color: #444444;
+  background: #fff;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+
+.contactpagesec .icon-box i {
+  font-size: 32px;
+  color: #67b0d1;
+  border-radius: 20%;
+  padding: 8px;
+  border: 2px dotted #f0f7fa;
+}
+
+.contactpagesec .icon-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contactpagesec .icon-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contactpagesec .icon-box p:hover {
+  color: orange;
+}
+
+section {
+  padding: 60px 60px;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  color: olivedrab;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: orangered;
+  z-index: 2;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+  height: 66px;
+  background: url(../img/section-title-bg.png) no-repeat;
+  z-index: -1;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.row-centered {
+  justify-content: center;
+}
+
+</style>
+
   </head>
 
   <body class="body-wrapper">
@@ -137,59 +226,89 @@
 
     <!--====  End of Page Title  ====-->
 
-    <section class="section contact-form">
-      <div style="margin: 0 20%" class="container-2">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title">
-              <h3>Get in <span class="alternate">Touch</span></h3>
-              <p></p>
+    
+
+
+
+
+
+  <section class="contactpagesec section-bg row-centered">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Get in Touch</h2>
+          <p>For any inquiries or further information, please feel free to reach out to us! You can email us, or call us directly.<br> We also welcome you to connect with us through our social media platforms. Follow us on Facebook, Twitter/X, LinkedIn, and Instagram to stay updated with our latest news and offerings. We look forward to hearing from you!</p>
+        </div>
+
+        <div class="row row-centered">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box mb-4">
+              <i class="fas fa-envelope"></i>
+              <h3>Our Email</h3>
+              <p>indabaxug@gmail.com</p>
             </div>
           </div>
+
+            <div class="col-lg-4 col-md-6">
+            <div class="icon-box  mb-4">
+              <i class="fas fa-phone"></i>
+              <h3>Call Us</h3>
+              <p>+256-752-680-108</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box  mb-4">
+              <i class="fab fa-twitter"></i>
+              <h3>Twitter/X</h3>
+              <p><a href="https://twitter.com/indabaxug" target="_blank">@indabaxug</a></p>
+            </div>
+          </div>
+</div>
+          <div class="row row-centered">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box  mb-4">
+              <i class="fab fa-linkedin-in"></i>
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/company/92845822/" target="_blank">IndabaX Uganda</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box  mb-4">
+              <i class="fab fa-facebook-f"></i>
+              <h3>facebook</h3>
+              <p><a href="https://www.facebook.com/indabaxug/" target="_blank">IndabaX Uganada</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box  mb-4">
+              <i class="fab fa-instagram"></i>
+              <h3>Instagram</h3>
+              <p><a href="https://www.instagram.com/indabaxug/" target="_blank">indabaxug</a></p>
+            </div>
+          </div>
+
         </div>
-        <form action="#" class="row">
-          <div class="col-md-6">
-            <input
-              type="text"
-              class="form-control main"
-              name="name"
-              id="name"
-              placeholder="Name"
-            />
-          </div>
-          <div class="col-md-6">
-            <input
-              type="email"
-              class="form-control main"
-              name="email"
-              id="email"
-              placeholder="Email"
-            />
-          </div>
-          <div class="col-md-12">
-            <input
-              type="text"
-              class="form-control main"
-              name="phone"
-              id="phone"
-              placeholder="Phone"
-            />
-          </div>
-          <div class="col-md-12">
-            <textarea
-              name="message"
-              id="message"
-              class="form-control main"
-              rows="10"
-              placeholder="Your Message"
-            ></textarea>
-          </div>
-          <div class="col-12 text-center">
-            <button type="submit" class="btn btn-main-md">Send Message</button>
-          </div>
-        </form>
+      
+
+          
       </div>
-    </section>
+    </section><!-- End Contactpagesec Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- <FOOTER></FOOTER> -->
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">

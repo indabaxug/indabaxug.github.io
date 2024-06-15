@@ -138,6 +138,30 @@
 
         border: 2px solid #fe9418;
       }
+
+      .card img {
+            object-fit: cover;
+            height: 250px;
+        }
+        .card .more-content {
+            display: none;
+        }
+        .speaker-item .image {
+            position: relative;
+        }
+        .primary-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .speaker-item:hover .primary-overlay {
+            opacity: 1;
+        }
     </style>
   </head>
 
@@ -243,214 +267,229 @@
 
     <!--====  End of Page Title  ====-->
 
-    <!-- Call for speakers-->
-    <section id="call-to-action" class="call-to-action mt-0 mb-0">
-      <img
-        src="images/background/greyscale-shot-happy-man-talking-microphone.jpg"
-        alt=""
-      />
-
-      <div class="container">
-        <div
-          class="row justify-content-center"
-          data-aos="zoom-in"
-          data-aos-delay="100"
-        >
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Want to be a speaker at the IndabaX 2024?</h3>
-              <p>
-                Become one of the speakers of the IndabaX 2024 today by clicking
-                the apply button below.
-              </p>
-              <a class="cta-btn" href="#">Apply</a>
+<section class="m-5">
+ <div class="container-fluid mx-2 my-2">
+        <div class="row">
+            <!-- Richard Mann -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/richard-mann.jpg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Richard Mann</h5>
+                        <p>Associate Professor of Applied Mathematics and Statistics at the University of Leeds
+</p>
+                        <div class="more-content">
+                            <p> Associate Professor of Applied Mathematics and Statistics at the University of Leeds.
+                               His research focuses on collective behaviour in humans and animals, particularly the adaptive function of social interactions and social learning, including the role of incentives in optimising collective behaviour. He is interested in AI as a tool for modelling animal cognition and analysing behavioural data.
+</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!-- alphonso -->
+             <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Alphonso.jpg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Alfonso Perez-Escudero</h5>
+                        <p>Paul Sabatier University Toulouse, France
+</p>
+                        <div class="more-content">
+                            <p>A researcher at the CNRS Center for Integrative Biology (CRCA-CBI) in Toulouse, France. My group studies how animals make decisions and move to execute them. Previously, I did my PhD at the Cajal Institute in Madrid, Spain, and a postdoc at the Massachusetts Institute of Technology in Cambridge (MA), USA.
+
+
+
+
+
+
+</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- keith -->
+             <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Keith_recent.JPG" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Mark Keith</h5>
+                        <p> University of Pretoria, South Africa</p>
+                        <div class="more-content">
+                            <p>A wildlife ecologist at the University of Pretoria, South Africa, mainly working on how animal populations and communities respond to land-use impacts such as agriculture, mining, urbanization, and land-use changes like bush encroachment and re-introduction of large mammals. The research focuses on the effects of these drivers across spatial and temporal scales. Collaborative work is key, enabling the study of a diverse range of mammals, from rodents to mega-herbivores and coastal cetaceans, and the integration of AI and machine learning to analyze ecological data efficiently.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- abigal -->
+             <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Abigail Frost.jpg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Abigail Frost </h5>
+                        <p> European Southern Observatory (Chile)</p>
+                        <div class="more-content">
+                            <p>Abigail is an operations staff astronomer at the European Southern Observatory in Chile. They obtained a PhD in Astrophysics from the University of Leeds in 2019, focusing on the circumstellar environments of massive young stellar objects. Their current role includes observatory duties with the Very Large Telescope Interferometer (VLTI) and personal research. Their research focuses on the multiplicity and formation of massive stars, primarily using infrared interferometry with the GRAVITY and PIONIER instruments of the VLTI.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+<!-- james miley -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/James_Miley.png" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>James Miley</h5>
+                        <p>Universidad de Santiago de Chile (Chile)
+</p>
+                        <div class="more-content">
+                            <p>James is an astronomer and astrophysicist from the UK, currently based in Chile. His research focuses on the evolution of protoplanetary discs, the environment in which planets form. He earned his undergraduate degree and PhD in astrophysics from the University of Leeds. He moved to Chile to become an ALMA Fellow at the Joint ALMA Observatory, working with the National Astronomical Observatory of Japan (NAOJ). Last year, he began his position as a postdoctoral researcher at the YEMS Millennium Nucleus and the Centre for Interdisciplinary Research into Astrophysics and Space Science (CIRAS) at Universidad de Santiago de Chile.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- miguel -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Miguel_Vioque_profile_picture.jpeg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Miguel Vioque</h5>
+                        <p> European Southern Observatory (Germany)
+</p>
+                        <div class="more-content">
+                            <p>Born in Sevilla, Spain, Miguel obtained his bachelor's degree in Physics from Universidad Complutense de Madrid and the University of Calgary. He earned his Master's in Astrophysics and Cosmology from Universidad Autónoma de Madrid. In October 2020, he received his PhD from the University of Leeds with a thesis on Herbig Ae/Be stars from a Gaia perspective. During his PhD, he completed an 18-month secondment at the European Space Astronomy Centre (ESAC) and the Centro de Astrobiología in Madrid. After his PhD, he spent 3 years in Chile with an ALMA Fellowship at the Joint ALMA Observatory. In January 2024, he moved to Germany to work as an ESO Fellow at the European Southern Observatory in Munich.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- neema -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Neema Mduma Bio Photo.png" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Dr.Neema Mduma</h5>
+                        <p>Senior lecturer at  Nelson Mandela African
+Institution of Science and Technology.
+
+</p>
+                        <div class="more-content">
+                            <p>Dr. Neema Mduma is a computer scientist and senior lecturer at the Nelson Mandela African Institution of Science and Technology (NM-AIST), specializing in Artificial Intelligence (AI) and Machine Learning (ML). She founded BakiShule, an initiative promoting STEM education for girls in secondary schools in Tanzania. Dr. Mduma is a Principal Investigator in various projects using AI and ML to address challenges in agriculture, health, education, and other sectors. She also reviews for scientific journals and conferences and was recently appointed by the Minister of State, President’s Office Planning and Investment, as a member of the technical team for drafting the Tanzania Development Vision 2050.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Lorna Kawira Mugambi -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Lorna Kawira.jpg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Lorna Kawira Mugambi</h5>
+                        <p>researcher and data scientist
+
+</p>
+                        <div class="more-content">
+                            <p>Lorna Mugambi is an accomplished researcher and data scientist currently pursuing her MSc. degree at the Center for Data Science and Artificial Intelligence (DSAIL) in Nyeri, Kenya. Her recent work includes AI-based diagnosis of rheumatic heart disease and camera trap image annotation for wildlife conservation. Beyond academia, Lorna engages with the community through workshops and conferences, sharing insights on machine learning for conservation and healthcare applications of AI.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Kushatha Ntwaetsile-->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Kushatha.JPG" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Kushatha Ntwaetsile</h5>
+                        <p>African VLBI Network Project
+
+</p>
+                        <div class="more-content">
+                            <p>Kushatha Ntwaetsile is a Computer Scientist turned Astronomer. She earned an MSc in Computer Science from Botswana International University of Science and Technology in 2018 and an undergraduate degree in Computer Systems Engineering from the University of Sunderland in 2013. She recently obtained a PhD in Astrophysics from the University of Hertfordshire, UK, with a thesis on "Rapid Automatic Classification of Radio Galaxies in Large Surveys using Machine Learning." Currently, she works for the AVN (African VLBI Network) Project in Botswana as a Software and Data Processing Engineer. Her research interests include radio galaxy classification, applying unsupervised machine learning and deep learning techniques in big data, particularly for image generation and classification, as well as big data visualization and analytics.</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Boitumelo Gaolape-->
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-2" >
+                <div class="speaker-item card">
+                    <div class="image">
+                        <img src="images/Speakers24/Boitumelo.jpg" alt="speaker" class="img-fluid card-img-top">
+                        <div class="primary-overlay"></div>
+                    </div>
+                    <div class="content text-center card-body">
+                        <h5>Boitumelo Gaolape</h5>
+                        <p>Botswana International University of Science and Technology (BIUST)
+</p>
+
+
+                        <div class="more-content">
+                            <p>Boitumelo is a dedicated second-year Master's student at the Botswana International University of Science and Technology (BIUST), specializing in astronomy and space science. Actively involved with Botswana's Women in STEM organization, she focuses on training and mentoring young people, especially women, in STEM fields. Her research interests include star formation rates in spiral galaxies and reducing uncertainties in star formation rate indicators. Boitumelo aims to pursue a PhD in astronomy or astrophysics, contributing to the development of astronomy in Botswana and Africa, and aspires to be a leading researcher and mentor.
+
+
+
+
+
+
+</p>
+                        </div>
+                        <p class="text-primary read-more-btn">Read More</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <!-- End Call-to-action Section -->
+    </div>
 
-    <!--==============================
-=            Speakers            =
-===============================-->
 
-    <!-- <section class="section speakers white">
-	<div style="width: 100%; position: relative; left: 50%; transform: translateX(-50%);" class="container container-2">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h3>Our<span class="alternate">Speakers</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-one.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-two.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-three.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-four.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-five.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-six.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-five.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				
-				<div class="speaker-item">
-					<div class="image">
-						<img src="images/speakers/speaker-six.jpg" alt="speaker" class="img-fluid">
-						<div class="primary-overlay"></div>
-						<div class="socials">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </section>
- -->
+
+
+
+  
+   
+ 
 
     <!--====  End of Speakers ====-->
 
@@ -521,5 +560,14 @@
     <script src="plugins/google-map/gmap.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
+      <script>
+        $(document).ready(function() {
+            $('.read-more-btn').on('click', function() {
+                var moreContent = $(this).siblings('.more-content');
+                moreContent.slideToggle();
+                $(this).text(moreContent.is(':visible') ? 'Read Less' : 'Read More');
+            });
+        });
+    </script>
   </body>
 </html>
